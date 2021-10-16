@@ -1,5 +1,6 @@
 // set global variables
 // to track games and progress
+// Hello I am adding a sentence
 var numGamesDraw = 0;
 var numGamesWon = 0;
 var numGamesPlayed = 0;
@@ -74,7 +75,7 @@ var playerLose = function (input, computerMove) {
 // function to return the logo corresponding to the move.
 var iconLogo = function (look) {
   var logo = "none";
-  if (look == "scissors" || look == "reversed scrissors") {
+  if (look == "scissors" || look == "reversed scissors") {
     logo = "✂️";
   }
   if (look == "paper" || look == "reversed paper") {
